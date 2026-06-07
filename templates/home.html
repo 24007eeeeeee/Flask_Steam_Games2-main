@@ -28,20 +28,37 @@
                        margin: 0; color: #ffffff;
                        font-weight: bold;
                        line-height: 1.2;">
-                {{ game[1] }}
+                       
+                 <!-- game 1 is studio name-->      
+                <div class="gamelabel">
+                    {{ game[1] }}
+                </div>
+
+                <!-- game 3 is cost-->
+                <div class="cost" style="color:rgb(17, 51, 68);
+                                         background-color: rgb(173, 247, 69);
+                                         padding: 4px 8px;
+                                         margin-top: 3px;
+                                         display: inline-block;">
+                <span>$</span>  
+                  {{ game[3]}}
+                </div>
             </h3>
+
             <p style="color: #c7d5e0;
                       font-size: 0.85em; 
                       margin-top: -5px;
                       margin-bottom: 0;">
+                      </p>
         <div>
 
             </div>
 
-            </p>
         </div>
 
     </div>
+
+
     {% endfor %}
 </div>
 {% endblock %}
