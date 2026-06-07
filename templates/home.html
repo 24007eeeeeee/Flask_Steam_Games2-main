@@ -1,0 +1,47 @@
+{% extends "layout.html" %}
+{% block body %}
+<div class="three-column">
+    {% for game in results %}
+    <div class="w3-card-4" style="margin-bottom: 20px;
+                                  border-radius: 0px; 
+                                  overflow: hidden; 
+                                  display: flex; 
+                                  flex-direction: column; 
+                                  height: 100%;">
+        
+        <a href="{{ url_for('game', id=game[0]) }}" style="display: block;
+                                                           line-height: 0;">
+                                                           
+            <img src="{{ game[2] }}" alt="{{ game[] }}" style="display: block;
+                                                               width: 100%;">
+        </a>
+
+        <div style="padding: 15px; 
+                    background: linear-gradient(to top, #13424d 0%, #1b2838 100%); 
+                    flex-grow: 1; 
+                    min-height: 50px; 
+                    display: flex; 
+                    flex-direction: column; 
+                    justify-content: flex-start;">
+            
+            <h3 style="font-size: 1.1em;
+                       margin: 0; color: #ffffff;
+                       font-weight: bold;
+                       line-height: 1.2;">
+                {{ game[1] }}
+            </h3>
+            <p style="color: #c7d5e0;
+                      font-size: 0.85em; 
+                      margin-top: -5px;
+                      margin-bottom: 0;">
+        <div>
+
+            </div>
+
+            </p>
+        </div>
+
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<div class="Title">
+     <h1>{{ game[2] }}</h1>
+    </div>
+
+<!-- Youtube video -->
+<iframe src="{{ game[7]}}" width="550" height="345" style="border: none;">
+</iframe>
+
+<!-- Game Info here -->
+<div class="information">
+    <p>{{ game[5] }}</p>
+    </div>
+
+ <!-- Just a little title -->   
+<div class="txtimage">
+    <h2>3 in game screenshots </h2>
+</div>
+    
+<!-- Images are here -->
+<!-- This is the first image -->
+<div class="gameimg1">
+        <img src="{{ game[8] }}"> 
+</div>
+
+<!-- This is the second image -->
+<div class="gameimg2">
+    <img src="{{ game[9]}}">
+</div>
+
+<!-- This is the third image -->
+<div class="gameimg3">
+    <img src="{{ game[10]}}">
+</div>
+
+
+
+{% endblock %}
+18:35

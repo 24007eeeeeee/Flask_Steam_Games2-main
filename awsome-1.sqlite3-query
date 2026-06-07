@@ -1,0 +1,115 @@
+-- database: ./database.db
+
+SELECT * FROM SteamGames;
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("DuneCrawl", "January 5, 2026", 19.99, "DuneCrawl is a 2026 co-op adventure where players crew a massive, multi-legged mechanical crawler to traverse a vast dust sea. You and your team must manually manage the ship's systems—steering, repairs, and cannons—to survive a hand-drawn world of desert privateers and hidden dungeons.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("StarRupture", "January 6, 2026", 19.99, "StarRupture is a first-person, open-world sci-fi game combining base building, factory automation, and intense combat. Set on a volatile alien planet, players must survive environmental cataclysms, gather resources, and build defended, industrial, and shielded bases alone or with up to four players.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("Pathologic 3", "January 9, 2026", 34.99, "Returning to the plague-ridden town, players take on the role of a doctor in this surreal survival horror sequel. Featuring a new time-travel mechanic, you must manage your reputation and resources while trying to save the inhabitants from a mysterious, sentient disease.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("Hytale", "January 13, 2026", 0.00, "A massive sandbox RPG that combines the creative depth of block-building with the immersion of a roleplaying game. Explore a procedurally generated world, take on epic quests, and engage in diverse minigames within a vibrant community-driven ecosystem.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("Trails Beyond the Horizon", "January 15, 2026", 59.99, "The latest entry in the legendary Trails series, focusing on a new cast of characters navigating the political tensions of the Zemurian continent. Expect deep turn-based combat, intricate world-building, and a narrative that rewards long-time fans and newcomers alike.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("Mio: Memories in Orbit", "January 20, 2026", 24.99, "A lush, hand-drawn 2D metroidvania set aboard a decaying space station known as the Vessel. Players control Mio, a nimble android, as they unlock new abilities to navigate a sprawling, interconnected world filled with robotic entities and forgotten secrets.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("2XKO", "January 20, 2026", 0.00, "A 2v2 tag-team fighting game featuring iconic champions from the League of Legends universe. Built with high-fidelity visuals and accessible yet deep mechanics, players can team up with friends to execute devastating combos and tactical swaps.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("Arknights: Endfield", "January 22, 2026", 0.00, "A real-time 3D RPG with strategic elements where players explore Talos-II, a dangerous planet filled with ruins. Command a team of operators to build automated factories and defend your territory against aggressive lifeforms in a high-tech frontier.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("Cairn", "January 29, 2026", 29.99, "A realistic climbing simulation that focuses on the physical and mental struggle of ascending a deadly mountain. Players must manage their stamina, find secure grips, and plan their route carefully in a desperate bid for survival against the elements.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("Code Vein II", "January 30, 2026", 69.99, "The sequel to the stylish anime-inspired 'souls-like' action RPG. Revenants must venture into even more dangerous territory, utilizing customizable Blood Veils and powerful Gifts to conquer grotesque bosses and uncover the truth behind the red mist.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("Dragon Quest VII Reimagined", "February 5, 2026", 59.99, "A ground-up remake of the classic JRPG epic. Featuring modernized 3D visuals and orchestral music, players travel through time to restore forgotten continents, following the story of a young fisherman’s son who discovers the world is much larger than his island home.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("Nioh 3", "February 6, 2026", 69.99, "The brutal samurai action series returns with a new protagonist and a refined combat system involving Yokai shifts. Set during a dark fantasy reimagining of the Edo period, players must master various weapons to defeat both human armies and demonic spirits.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("Mewgenics", "February 10, 2026", 29.99, "A chaotic tactical RPG centered on the breeding, mutation, and combat of cats. From the creator of The Binding of Isaac, players manage a house of feline warriors, engaging in grid-based battles while dealing with complex genetics and unpredictable biological outcomes.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("Yakuza Kiwami 3 & Dark Ties", "February 12, 2026", 69.99, "A dual release featuring a total remake of the Okinawa-based Kiwami 3 alongside 'Dark Ties,' a new side story. Experience the dragon of Dojima’s life in stunning modern graphics with revamped combat and classic Sega arcade minigames.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("Reanimal", "February 13, 2026", 39.99, "A dark, co-op horror adventure from the original creators of Little Nightmares. Two siblings must journey through a twisted, hellish world of anthropomorphic nightmares to rescue their friends, using stealth and puzzle-solving to avoid terrifying creatures.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("High on Life 2", "February 13, 2026", 49.99, "The talking guns are back in this comedic sci-fi FPS sequel. Explore new alien worlds, meet a fresh cast of vulgar Gatlian weapons, and take down an intergalactic syndicate in a vibrant world filled with dark humor and fast-paced shooting.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("Resident Evil Requiem", "February 27, 2026", 69.99, "A new mainline entry in the survival horror franchise that bridges the gap between classic and modern storylines. Players must survive a global biohazard outbreak in a dense urban environment, featuring a return to resource management and high-tension atmosphere.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("World of Warcraft: Midnight", "March 2, 2026", 49.99, "The second chapter of the Worldsoul Saga. Players return to the Old World and the Sunwell of Quel'Thalas to battle the forces of the Void as they attempt to extinguish the light of Azeroth in this massive expansion.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("Legacy of Kain: Defiance Remastered", "March 3, 2026", 29.99, "A high-definition remaster of the dramatic conclusion to the Kain and Raziel saga. Experience the gothic world of Nosgoth with updated textures, improved lighting, and refined controls as the two protagonists fight to defy their destinies.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("Slay the Spire 2", "March 5, 2026", 24.99, "The pioneer of the roguelike deckbuilder returns. Featuring new characters with unique mechanics, fresh relics, and even more dangerous enemies, players must once again climb the ever-changing Spire to face the heart at the top.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("Marathon", "March 5, 2026", 39.99, "A sci-fi extraction shooter set in the iconic Marathon universe. Players compete as cybernetic mercenaries known as Runners, scavenging for artifacts and gear on a lost colony while battling both AI threats and other players.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("Planet of Lana II", "March 5, 2026", 19.99, "A cinematic puzzle adventure following a new journey on a beautiful alien world. Use the unique bond between a young girl and her loyal creature companion to solve environmental puzzles and evade a mysterious mechanical threat.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("John Carpenter's Toxic Commando", "March 12, 2026", 39.99, "An over-the-top co-op FPS inspired by 80s action horror. Take control of a powerful commando vehicle and use heavy weaponry to blast through hordes of mutated monstrosities created by a failed experiment known as the Sludge.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("Fatal Frame II Remake", "March 12, 2026", 49.99, "A terrifying reimagining of the 'Crimson Butterfly' story. Use the Camera Obscura to fend off vengeful spirits in the Lost Village, now rendered in stunning detail with modern survival horror mechanics.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("Monster Hunter Stories 3", "March 13, 2026", 59.99, "The turn-based RPG spin-off returns. Hatch, raise, and live alongside your favorite monsters from the series. Embark on a grand adventure across diverse landscapes to solve the mystery of a new ecological disturbance.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("WWE 2K26", "March 13, 2026", 69.99, "The ultimate wrestling simulation returns with an updated roster, refined MyRise career mode, and the return of fan-favorite match types. Experience the drama of the squared circle with industry-leading graphics and gameplay.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("Crimson Desert", "March 19, 2026", 69.99, "An epic open-world action-adventure set on the continent of Pywel. Follow a group of mercenaries as they fight for survival in a gritty world of warring factions, mythical beasts, and deep narrative choices.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("Death Stranding 2: On The Beach", "March 19, 2026", 69.99, "Hideo Kojima’s highly anticipated sequel. Join Sam Bridges and a new cast of characters as they venture beyond the UCA to connect a fractured world once again, featuring expanded traversal mechanics and a surreal, haunting story.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("Mega Man Star Force Collection", "March 27, 2026", 39.99, "A comprehensive collection of the Nintendo DS RPG classics. Follow Geo Stelar and Omega-Xis in high-speed, grid-based combat. Includes all three entries with updated visuals and online battling capabilities.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("I Am Jesus Christ", "April 2, 2026", 19.99, "A unique first-person simulator based on the New Testament. Perform miracles, endure the desert, and walk the path of Christ from his baptism to his resurrection in this stylized retelling of biblical events.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("Replaced", "April 14, 2026", 29.99, "A 2.5D sci-fi retro-futuristic platformer set in an alternative 1980s. You play as R.E.A.C.H., an AI trapped in a human body, navigating a gritty, pixel-art world filled with cinematic action and a deep conspiracy.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("Pragmata", "April 17, 2026", 69.99, "A mysterious sci-fi adventure from Capcom set on a near-future Moon colony. Featuring advanced physics and a unique protective suit mechanic, players must safeguard a young girl while uncovering the truth behind a mechanical apocalypse.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("Masters of Albion", "April 22, 2026", 34.99, "A god-game RPG from Peter Molyneux. Build and manage your own fantasy town by day, and personally possess your heroes to defend it against monsters by night in this return to classic British game design.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("Diablo IV: Lord of Hatred", "April 28, 2026", 39.99, "The major expansion for Diablo IV that takes players to the jungles of Kurast. Face the return of Mephisto, unlock the new Spiritborn class, and delve into the darkest corners of Sanctuary’s history.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("Directive 8020", "May 12, 2026", 39.99, "A sci-fi horror entry in The Dark Pictures Anthology. Set aboard a deep-space scout ship, the crew discovers they are not alone as a shapeshifting alien threat begins to mimic their forms, forcing players to decide who to trust.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("Forza Horizon 6", "May 19, 2026", 69.99, "The premier open-world racing festival moves to a stunning new location featuring diverse biomes. With hundreds of cars and a dynamic weather system, experience the ultimate celebration of automotive culture.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("Paralives", "May 25, 2026", 29.99, "An innovative life simulation game that focuses on deep customization and realistic dollhouse-style building. Create unique characters, design their dream homes with intuitive tools, and manage their daily lives in a cozy town.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("007: First Light", "May 27, 2026", 69.99, "The first James Bond game from the creators of Hitman. Embark on a globe-trotting mission of espionage, using high-tech gadgets and social stealth to stop a global threat in this cinematic origin story.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("LEGO Batman: Legacy of the Dark Knight", "May 29, 2026", 59.99, "A massive LEGO open-world adventure spanning multiple eras of Batman's history. Play through iconic comic and film moments with a massive roster of heroes and villains, all with the classic LEGO humor.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("Gothic 1 Remake", "June 5, 2026", 59.99, "A faithful reimagining of the cult classic RPG. Return to the Mining Colony of Khorinis, navigate the dangerous camp politics, and survive the harsh wilderness in a world where every NPC has a schedule and a memory.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("The Adventures of Elliot", "June 18, 2026", 14.99, "A charming indie platformer featuring a young explorer on a quest through a magical forest. Focused on precise movement and heartwarming character interactions, it’s a journey about discovery and friendship.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("Beast of Reincarnation", "August 4, 2026", 59.99, "A new creature-collecting adventure with a focus on elemental spirits and ancient mythology. Players journey through a world inspired by feudal folklore to stop a cycle of destructive rebirth.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("Halloween: The Game", "September 8, 2026", 39.99, "An asymmetrical horror game based on the legendary film franchise. One player takes the role of Michael Myers, while others must survive the night in Haddonfield using stealth and teamwork.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("Phantom Blade Zero", "September 9, 2026", 69.99, "A fast-paced 'Kung-Fu-Punk' action RPG. As a lethal assassin with only 66 days to live, you must slice through a dark, semi-open world of mechanical monstrosities and rival warriors in high-octane combat.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("Fable", "Autumn 2026", 69.99, "A new beginning for the legendary franchise. Explore a world of wonder and whimsical danger where your choices define your hero. Will you be a noble savior or a feared villain in the land of Albion?");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("Subnautica 2", "Late 2026", 29.99, "The sequel to the acclaimed underwater survival game. Dive into an entirely new alien ocean featuring co-op support, terrifying leviathans, and deep-sea mysteries that expand the lore of the Alterra Corporation.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("Judas", "Late 2026", 69.99, "A narrative-driven FPS from the creator of BioShock. Trapped on a disintegrating starship, you must forge alliances—or break them—with your worst enemies to fix what you broke and escape the crumbling vessel.");
+
+INSERT INTO SteamGames(Game,ReleaseDate,Cost,Description) VALUES("Grand Theft Auto VI", "Late 2026", 79.99, "The most anticipated game of the decade. Return to the neon-soaked streets of Vice City and the sprawling state of Leonida in a dual-protagonist story of crime, ambition, and survival in modern-day America.");
+
+-- All Games
+SELECT * FROM SteamGames;
+-- all games and the studio
+SELECT Studios.Name,SteamGames.Game FROM SteamGames
+JOIN Studios ON Studios.StudioID=Studios.StudioID;
+
+
+-- All data on ONE game depending on studio id
+SELECT * FROM SteamGames
+JOIN Studios ON Studios.StudioID=SteamGames.StudioID
+WHERE Studios.StudioID="35";
+
+            SELECT SteamGames.GameID, SteamGames.Game, SteamGames.Game, SteamGames.ImageURL, SteamGames.Cost, SteamGames.Description, SteamGames.VideoURL
+            FROM SteamGames
+

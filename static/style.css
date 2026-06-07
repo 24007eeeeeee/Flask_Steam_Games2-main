@@ -1,0 +1,93 @@
+body {
+    /* BACKGROUND IMAGE */
+    background-image: url('background.jpg'); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: Roboto, sans-serif;
+}
+
+.three-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+}
+
+
+img{
+    width: 100%;
+}
+
+
+body {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+/*background stuff*/
+.main-container {
+    background-color: rgba(14, 51, 75, 0.9); 
+    max-width: 1000px;
+    margin: 0 auto; /* this centers the container */
+    min-height: 100vh;
+    padding: 5px;
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
+    color: #c7d5e0;
+}
+
+.three-column h3 {
+    color: #ffffff;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 10px;
+}
+
+
+.two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3em;
+    
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+
+.Title {
+    margin-left: 560px;
+    margin-bottom: -50px;
+    color:rgba(255, 255, 255, 0.9)
+}
+
+.information {
+  margin-top: -320px;
+  width: 40%;
+  margin-left: 560px;
+  margin-right: 0; /*this makes the <p> stick to the right side of the page*/
+}
+
+.gameimg1 {
+  margin-top: -15px;
+}
+
+.txtimage {
+  padding-top: 200px; 
+  color:rgba(255, 255, 255, 0.9);
+}
+
+h2 {
+  font-size: 17px;
+}
+

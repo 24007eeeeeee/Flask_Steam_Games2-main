@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}"> 
+    <title>Upcoming Steam Games as of 2026</title>
+    <link rel="icon" type="image/x-icon" href="/static/steamicon.png">
+</head>
+<body class="w3-container">
+    <div class="main-container"> <header class="w3-container w3-padding-32">
+            <h1>  </h1>
+        </header>
+
+        
+
+<!-- This is the Nav Bar-->
+<nav class="topnav" style="background-color: #1d2841;
+                           display: flex; align-items: center;
+                           justify-content: space-between; 
+                           background: linear-gradient(to top, #1b2838 0%, #2d3846 100%); 
+                           padding: 5px 20px; 
+                           position: relative; 
+                           top: -5px; min-height: 40px;">
+    
+    <a href="/" style="display: flex; align-items: center; text-decoration: none;">
+        <img src="{{ url_for('static', filename='steamicon.png') }}" 
+             alt="Steam Logo" 
+             style="height: 25px; 
+                    width: auto; 
+                    margin-right: 10px;">
+        <span style="color: #ffffff; 
+                     font-weight: bold; 
+                     font-size: 0.9em; 
+                     text-transform: uppercase; 
+                     letter-spacing: 1px;">
+            Home
+        </span>
+    </a>
+
+    <div style="flex-grow: 1; display: flex; justify-content: flex-end;">
+<input type="text" placeholder="Search for new/upcoming games!" 
+       style="background-color: #0d111b; 
+              border: 1px solid #4e86a9; 
+              color: white; 
+              padding: 5px 10px; 
+              border-radius: 1px; 
+              font-size: 0.85em; 
+              width: 350px;
+              outline: none;">
+    </div>
+</nav>
+
+<!-- This is a label which appears only on Home Page -->
+{% if request.endpoint == 'home' %}
+<div style="background-color: #202f3f;
+            color: #ffffff; 
+            padding: 4px 15px; 
+            margin-top: 80px; 
+            font-weight: normal; 
+            background: linear-gradient(to top, #1b2838 0%, #286674 150%); 
+            text-transform: uppercase; 
+            letter-spacing: 0.5px; 
+            font-size: 0.9em;">
+    ALREADY RELEASED/UPCOMING STEAM GAMES AS OF 2026
+</div>
+
+
+{% endif %}
+
+
+        {% block body %}
+        {% endblock %}
+    </div> </body>
+</html>
